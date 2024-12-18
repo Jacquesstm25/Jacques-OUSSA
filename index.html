@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUSSA Jacques</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('IMG-20231223-WA0113.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            width: 100%;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0 20px;
+        }
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        #home {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+                margin: 0 10px;
+            }
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                height: 300px;
+            }
+            .hero h1 {
+                font-size: 1.5em;
+            }
+            main {
+                padding: 1em;
+            }
+            #home {
+                padding: 0.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OUSSA Jacques</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Découvrez moi</h1>
+    </div>
+    <main>
+        <section id="home">
+            <h2>Accueil</h2>
+            <p>Bonjour ! Je suis Jacques OUSSA, entrepreneur béninois, ingénieur en sécurité informatique et homme politique. Ce site est un aperçu de mon parcours professionnel, de mes projets et de mes centres d'intérêt. Que vous soyez ici pour en savoir plus sur mon travail, explorer mes projets récents ou simplement échanger des idées, je suis ravi de vous accueillir. Prenez votre temps, parcourez les différentes sections et n'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez collaborer !</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jacques OUSSA. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
